@@ -1,7 +1,6 @@
 
-body{font-family:Arial;margin:0;background:#f4f6f5;line-height:1.6;}
+body{font-family:Arial;margin:0;background:#f4f6f5;}
 header,footer{background:#7a1c1c;color:white;text-align:center;padding:20px;}
 section{background:white;margin:20px;padding:20px;border-radius:8px;}
-.species-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:15px;}
-.species-card{border-left:5px solid #7a1c1c;padding:12px;background:#fafafa;cursor:pointer;}
-pre{font-size:0.8em;white-space:pre-wrap;word-wrap:break-word;}
+.species-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px;}
+.species-card{border-left:5px solid #7a1c1c;padding:10px;background:#fafafa;cursor:pointer;}

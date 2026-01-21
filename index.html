@@ -1,108 +1,48 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.3">
-  <style type="text/css">
-    p.p2 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Menlo; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none}
-    span.s2 {font: 11.0px Times; font-kerning: none; color: rgba(0, 0, 0, 0.85); background-color: #ffffff; -webkit-text-stroke: 0px rgba(0, 0, 0, 0.85)}
-  </style>
+<meta charset="UTF-8">
+<title>Identificación genética de Pinus en Michoacán</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>Identificación genética de </b><b><i>Pinus</i></b><b> en Michoacán</b></span></h1>
-<p class="p2"><span class="s1">Facultad de Ingeniería en Tecnología de la Madera (FITECMA)<br>
-Universidad Michoacana de San Nicolás de Hidalgo</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>Descripción del proyecto</b></span></h2>
-<p class="p2"><span class="s1">Este proyecto tiene como objetivo la identificación molecular de once especies del género <i>Pinus</i> presentes en el estado de Michoacán, México, mediante la secuenciación del espaciador interno transcrito (ITS) del ADN ribosomal nuclear.</span></p>
-<p class="p2"><span class="s1">Las secuencias obtenidas fueron comparadas con referencias disponibles en bases de datos genéticas internacionales, y los resultados se integraron en una plataforma web que vincula información molecular, taxonómica y geográfica, con fines académicos y de investigación.</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>Mapa de colecta</b></span></h2>
-<p class="p4"><span class="s1">Filtrar por especie: </span><span class="s2">Todas</span></p>
-<p class="p5"><span class="s1"></span><br></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>Fichas por especie y secuencias ITS</b></span></h2>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b><i>Pinus leiophylla Schiede ex Schltdl. &amp; Cham.</i></b><b><i></i></b></span></h3>
-<p class="p7"><span class="s1">ITS: NNNNNNNNNNNNNNNNNNNANNNNNNNTTNNTNNCAGNNCAAGGNCATCC</span></p>
-<p class="p7"><span class="s1">AGGGGCTGTGTAAAGCATGTCGGAGCGCTTTAAANAAATGGTNCNCNCTG</span></p>
-<p class="p7"><span class="s1">GGCTTCCTGGTGTGGTACCCGGGCGAGGGCCTGGATGAGATGGATTTCAC</span></p>
-<p class="p7"><span class="s1">CGNGGCNNAAAACAAAAAGGAAGAACTGGAGGCGTGCGACCAGCATTACC</span></p>
-<p class="p7"><span class="s1">AGGACNCCCCTGCCNAGAAGGAGGGGGGGGAGACTTGAAAGGGCTATGAG <span class="Apple-converted-space">       </span></span></p>
-<p class="p7"><span class="s1">NGGTGCGATGCTAGTGCGCTTGTCTAAGCCCCCCGCATTGCNGGTGCCTC<span class="Apple-converted-space">       </span></span></p>
-<p class="p7"><span class="s1">CTTTGAGTGGCCTGGACTTGTAAAGACGANTCGGTCCCAGNCNAGAATCT</span></p>
-<p class="p7"><span class="s1">NTCTCATTTTCCGGAGCACCCTNNTCNTGNACGACTGAACTCTTNGGGCG</span></p>
-<p class="p7"><span class="s1">GGGTANAGGTTAACTTAGCTATGATCGGNCCCNCTCACGGAGCTTGTTCT</span></p>
-<p class="p7"><span class="s1">TGGGTTTGTCCCCCCGTTTTCAACCACAGGAGTTTTGATGTTGCTGAAGA</span></p>
-<p class="p7"><span class="s1">CGTCGGTTTTCACTATTTGTGCTGTTTTTTGCCCGTGCNGCATCCTCGTG</span></p>
-<p class="p7"><span class="s1">CNGNGGGAGATGTTGACTAAAACAATTTTTTTCTGTCTGTGAGATACCCC</span></p>
-<p class="p7"><span class="s1">CTCCGNANGACGNAAANTANTTCCAGNTTCGANCGCAANGGAGGCCCGCT</span></p>
-<p class="p7"><span class="s1">GCATCATCACCTGTCAGAATATTNNAAGCCAAGTGAGTTGGGATGCAGTT</span></p>
-<p class="p7"><span class="s1">GGANCACCCAACGCCCAAAGGCGCAAGGTCGCTCCCCATGAGTGATACCT</span></p>
-<p class="p7"><span class="s1">CGCAGACGGAAAGTAATAGTACCCCCCCAAAGCAACTCCCGGGNCN</span></p>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b><i>Pinus pringlei Shaw</i></b><b><i></i></b></span></h3>
-<p class="p7"><span class="s1">ITS: NNNNNNNNNNNNNANGNNNNNNNNNNNTNNNNGNNANGNGNNCATCGNNG</span></p>
-<p class="p7"><span class="s1">AGGTGTAAANCTCTCTCGGANNNTNNCACTCTGTTCCGGCGCGCGCCTTC</span></p>
-<p class="p7"><span class="s1">CTGCGTGGGCACGGGCGACCTGGATGGGCGCATTTTTNGCGGCCGAGATA</span></p>
-<p class="p7"><span class="s1">ATAAGAGAATGACCTGGCGTGCGACAAGCCGCACTAGGCCACCCCCTCTG</span></p>
-<p class="p7"><span class="s1">AGAAGGAGGGCAGAGAGATGATAAGGCTATGAGNAGTGGACGTGCTACAG</span></p>
-<p class="p7"><span class="s1">CGTGGCTTGGTGAAGCTCTCACGGCGACGACCTGCGCCCCGGTGGGCTGG</span></p>
-<p class="p7"><span class="s1">TTCTAATCTGACCGNGTCNGTCCGAGGCAGCGNTCTCTTCCTCATTATGG</span></p>
-<p class="p7"><span class="s1">CAGCATCCAGTNAGCGAANCACTGACCTCTTTGGGGTTGCGCATTGCATT</span></p>
-<p class="p7"><span class="s1">CACTTAGCAATTATGGGANCCCNAACACGAATCTACTTCGCTTGGTTGTC</span></p>
-<p class="p7"><span class="s1">CCCGCNTTGTACCGCGCATGTGTGTTGATGCTCCGGCGTTGGCTGACACT</span></p>
-<p class="p7"><span class="s1">AGTGTTCCTTTCTTTTTACTACTGGGCATGTCGAGCTNNGGTTGATGATC</span></p>
-<p class="p7"><span class="s1">AATAACTATAATAATTTCTGCTTACTGCCGGGCATCCCGAGGAAATGAAA</span></p>
-<p class="p7"><span class="s1">ATAACCCCAGCGTTGAGTGCACCGGGATCTCCCCCCCCCAGCACGACACG</span></p>
-<p class="p7"><span class="s1">GTGGCCTAATGGCCCAAATCACCTGGTCCGGCCCCCNATCGGGTGGCACC</span></p>
-<p class="p7"><span class="s1">ACGTCACACGCCCCACNGGCTCAACTTGCTCTCCAAGGAGTGCTACTCGN</span></p>
-<p class="p7"><span class="s1">ATGACTGGCAAGTAGAANCTCCCCCACAAAGCGACNCCCGGNNT</span></p>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b><i>Pinus douglasiana Martínez</i></b><b><i></i></b></span></h3>
-<p class="p7"><span class="s1">ITS: GNNNNNNNNNNNNNNANNNNNNNNNNNNNTTGGANACNNCANNTNNAAAT</span></p>
-<p class="p7"><span class="s1">CAAGTTGTTGTACGAACTCTCTTGCATGACCAGGGGCGCTCCCGCCACAA</span></p>
-<p class="p7"><span class="s1">GGNAAACCTGGTGCGGTGGAACGGAAAGGGCCAGGAATGAAAGGAATTTC</span></p>
-<p class="p7"><span class="s1">CCAGGGCCGGATAAAAAAATGAAACAAAAGAAATCTGTGCCCACCCCATC</span></p>
-<p class="p7"><span class="s1">TCTGGCCGCCCTCAAAGATGAAGGGGGGAAGATANTGCANAATGTAATGA</span></p>
-<p class="p7"><span class="s1">AAATTGCAGAATTCAAACGGTCCTTGCGCCTTTGAATGCTCCTAGNNGTC<span class="Apple-converted-space">         </span></span></p>
-<p class="p7"><span class="s1">GGTGGGATTGCGTGGCANGTGCCTGTATGAGTGNATGTTTNCTTCNNCNC<span class="Apple-converted-space">         </span></span></p>
-<p class="p7"><span class="s1">TCCTCTTTCTTGAGGATTGCCGCCCTGTTTGGTTTCTGAGCCCTGCTTTT</span></p>
-<p class="p7"><span class="s1">GGTGACCGAGGTTCTCCTTCTCCTTNATTTAGGACGCCCCCCACTCCTTG</span></p>
-<p class="p7"><span class="s1">TGCTTCCTCTTGGCTCTGTCCCCCCTTTTTCCACCACAGGAAGTTTTATG</span></p>
-<p class="p7"><span class="s1">ATGCTAATTCGGCGATTATCAGCAANGTTTTTTTTTTAGGCTGTGTTGNN</span></p>
-<p class="p7"><span class="s1">TNTACGTGCTGTGGAAAATGTAGAACTACGATAGTTTGTTCTGCTTGTGA</span></p>
-<p class="p7"><span class="s1">TTACGCACAGGATATTTTNNAAANACACCNNANGCTCGAATGNAGATGGA</span></p>
-<p class="p7"><span class="s1">TTCCCCCCCGCATATGTACGCTGCGCCTTAGGCCGAAAGCCCCGGTTC</span></p>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b><i>Pinus montezumae var. montezumae</i></b><b><i></i></b></span></h3>
-<p class="p7"><span class="s1">ITS: NNNNNNNNNNNNNANNNNNNNNNNTGATNTGCCAGNTATCCATGAGCGGA</span></p>
-<p class="p7"><span class="s1">GGAAACCATCTCGGAGCANTCACNGCATTGTTCCGCCGNCAGCNTTCTTG</span></p>
-<p class="p7"><span class="s1">CTTGCTACACGGGCGAAGCCATGAATGAGATGATGTTCGCCGAGGCTGAA</span></p>
-<p class="p7"><span class="s1">GAAAAATGATNACCTGACTTCTGAGTGCCAACATTACCGGGCCGCCCCTG</span></p>
-<p class="p7"><span class="s1">CCTGAGGAGGAGGAGAGAGACATGAAAAAAATTCGGGGGGGTAGGAACCC</span></p>
-<p class="p7"><span class="s1">CGCGTGCCCGTCCAGGTGCTGCNCATGCATGACTCGCGAGNAGTGNTGTG</span></p>
-<p class="p7"><span class="s1">AACGACTTAGACAAGAGNATNNGTANTCCCACACCCATCTTTCTATTGAC</span></p>
-<p class="p7"><span class="s1">ACGGCACCCCCTTTTGCANNGCACAACTCNTTTGGGGGCCCAGGTTCAAG</span></p>
-<p class="p7"><span class="s1">TCCTCCTTTATTAATGTCCACGCCCACTCCCAGTGCGTCCTCTTTCACTT</span></p>
-<p class="p7"><span class="s1">GTCCCCCCGTTTTTAACCACATGAGTATTTATGTTGCTTGTTCGTCTGTT</span></p>
-<p class="p7"><span class="s1">TTCAGTTTTTGTTTCNTTTTTTTACTGTTCCTGTGTNTCTATGCGGNTGT</span></p>
-<p class="p7"><span class="s1">AGGGGTAGACGTAAAAAATTTACTGCTGTCTGTGACATACGCCCGNGATC</span></p>
-<p class="p7"><span class="s1">TCTCATAAAANN</span></p>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b><i>Pinus oocarpa Schiede ex Schltdl.</i></b><b><i></i></b></span></h3>
-<p class="p7"><span class="s1">ITS: ATGCGTACGATCGATCGATCGATCGATCGATGCTAGCTAGCTAGCTAGCTAGCTA</span></p>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b><i>Pinus martinezii</i></b><b><i></i></b></span></h3>
-<p class="p7"><span class="s1">ITS: ATGCGTACGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGA</span></p>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b><i>Pinus maximinoi</i></b><b><i></i></b></span></h3>
-<p class="p7"><span class="s1">ITS: ATGCGTACGATCGATCGATCGATGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTA</span></p>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b><i>Pinus teocote</i></b><b><i></i></b></span></h3>
-<p class="p7"><span class="s1">ITS: ATGCGTACGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGA</span></p>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b><i>Pinus lawsonii</i></b><b><i></i></b></span></h3>
-<p class="p7"><span class="s1">ITS: ATGCGTACGATCGATCGATCGATCGATCGATGCTAGCTAGCTAGCTAGCTAGCTA</span></p>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b><i>Pinus michoacana</i></b><b><i></i></b></span></h3>
-<p class="p7"><span class="s1">ITS: ATGCGTACGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGA</span></p>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b><i>Pinus pseudostrobus</i></b><b><i></i></b></span></h3>
-<p class="p7"><span class="s1">ITS: ATGCGTACGATCGATCGATCGATGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTA</span></p>
-<p class="p2"><span class="s1">Proyecto académico · FITECMA – UMSNH</span></p>
+
+<header class="institutional-header">
+  <div class="header-text">
+    <h1>Identificación genética de <em>Pinus</em> en Michoacán</h1>
+    <p>
+      Facultad de Ingeniería en Tecnología de la Madera (FITECMA)<br>
+      Universidad Michoacana de San Nicolás de Hidalgo
+    </p>
+  </div>
+</header>
+
+<section class="intro">
+  <h2>Objetivo general</h2>
+  <p>
+    Identificar especies del género <em>Pinus</em> presentes en el estado de Michoacán
+    mediante secuenciación genética y análisis filogenético, integrando información espacial.
+  </p>
+</section>
+
+<section class="controls">
+  <label for="speciesSelect">Selecciona una especie:</label>
+  <select id="speciesSelect"></select>
+</section>
+
+<section id="map"></section>
+
+<footer>
+  <p>
+    Proyecto académico · FITECMA – UMSNH<br>
+    Uso exclusivo para fines científicos y educativos
+  </p>
+</footer>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="data.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

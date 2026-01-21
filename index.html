@@ -5,41 +5,24 @@
 <title>Identificación genética de Pinus en Michoacán</title>
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-<header class="institutional-header">
-  <div class="header-text">
-    <h1>Identificación genética de <em>Pinus</em> en Michoacán</h1>
-    <p>
-      Facultad de Ingeniería en Tecnología de la Madera (FITECMA)<br>
-      Universidad Michoacana de San Nicolás de Hidalgo
-    </p>
-  </div>
+<header>
+<h1>Identificación genética de Pinus en Michoacán</h1>
+<p>Plataforma académica de apoyo a tesis / CONACYT</p>
 </header>
 
-<section class="intro">
-  <h2>Objetivo general</h2>
-  <p>
-    Identificar especies del género <em>Pinus</em> presentes en el estado de Michoacán
-    mediante secuenciación genética y análisis filogenético, integrando información espacial.
-  </p>
+<section>
+<h2>Objetivo general</h2>
+<p>Identificar especies del género <em>Pinus</em> presentes en Michoacán mediante secuenciación genética y análisis filogenético.</p>
 </section>
 
-<section class="controls">
-  <label for="speciesSelect">Selecciona una especie:</label>
-  <select id="speciesSelect"></select>
+<section>
+<label for="speciesSelect">Especie:</label>
+<select id="speciesSelect"></select>
 </section>
 
 <section id="map"></section>
-
-<footer>
-  <p>
-    Proyecto académico · FITECMA – UMSNH<br>
-    Uso exclusivo para fines científicos y educativos
-  </p>
-</footer>
 
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script src="data.js"></script>
